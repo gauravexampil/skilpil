@@ -35,9 +35,9 @@ navBar.forEach(function(a){
         }, step);
     }
     counter("count1", 0, 100, 3000);
-    counter("count2", 100, 5786, 2000);
-    counter("count3", 0, 1440, 3000);
-    counter("count4", 0, 7110, 2000);
+    counter("count2", 100, 3786, 2000);
+    counter("count3", 0, 20, 0);
+    counter("count4", 0, 20, 1);
  });
 
 //Scroll Reveal
