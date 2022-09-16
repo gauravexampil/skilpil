@@ -120,8 +120,8 @@ p {
   display: inline-block;
   padding: 0.625rem 1.875rem;
   line-height: 1.5625rem;
-  background-color: var(--primary-color);
-  border: 0.1875rem solid var(--primary-color);
+  background-color: #8d3462;
+  border: 0.1875rem solid #8d3462;
   color: var(--white-color);
   font-size: 0.9375rem;
   font-weight: 600;
@@ -190,6 +190,7 @@ p {
 .navigation-wrap .nav-item{
   padding:0 0.625rem;
   transition:all 200ms linear;
+
 }
 .navbar-toggler:focus{
   outline:unset;
@@ -223,6 +224,7 @@ p {
   background:var(--white-color);
   box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
   transition:all .15s ease-in-out 0s;
+  height: 100px;
 }
  
 
@@ -248,7 +250,7 @@ p {
   counter Design
 */
 .counter-section{
-  background-color: var(--primary-color);
+  background-color: #421e42;
   padding:2.5rem 0;
 }
 .counter-section p{
@@ -262,6 +264,7 @@ p {
 */
 .about-section{
   background: var(--white-color);
+  margin-top: -160px;
 }
 .about-section .card,
 .about-section .card img{
@@ -371,8 +374,8 @@ explore menu section
   text-align: center;
 } 
 .testimonial-section .carousel-caption img{
-  max-width:5rem;
-  border-radius: 50%;
+  max-width:20rem;
+  border-radius: 10%;
   padding:0.3125rem;
 }
 
